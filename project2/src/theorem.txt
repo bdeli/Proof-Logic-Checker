@@ -1,0 +1,6 @@
+and1 ((x&y)=>x)
+and2 ((x&y)=>y)
+dn (~~x=>x)
+not-or-creation (~p=>(~q=>~(p|q)))
+buildAnd (a=>(b=>(a&b)))
+demorgan2 ((~a&~b)=>~(a|b))
