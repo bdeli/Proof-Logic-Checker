@@ -32,5 +32,7 @@ General Solution
 2. It then creates a Proof object that will store the proof being completed.
 3. It enters a loop:
   a. It asks the Proof what its current line number is, and prints it.
+  
   b. It asks the Input Source for a line,then sends that line to Proof.extendProof. Either it will be a valid extension to the proof, or extendProof will throw an exception.
+  
   c. Finally, it will check if the proof is completed, leaving the loop if so.
