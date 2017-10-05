@@ -31,6 +31,7 @@ General Solution
 1. The main method creates a ProofChecker object, which sets up an InputSource of lines and reads theorems from a file if specified.
 2. It then creates a Proof object that will store the proof being completed.
 3. It enters a loop:
+
   a. It asks the Proof what its current line number is, and prints it.
   
   b. It asks the Input Source for a line,then sends that line to Proof.extendProof. Either it will be a valid extension to the proof, or extendProof will throw an exception.
