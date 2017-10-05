@@ -2,11 +2,6 @@ Propsitional Logic Checker
 ========
 CS61bl Summer 2013 Project #2
 
-bdeliwala@gmail.com
-jalozano@berkeley.edu
-mchlzhao@gmail.com
-d.p.hellwig@gmail.com
-
 Gerneral Purpose
 ----------
 Manipulating trees and work with tree recursion, to construct and test a relatively large program.
